@@ -5,6 +5,8 @@ img = cv.imread('Resources/Photos/cat_large.jpg')
 
 cv.imshow('Cat', img)
 
+cv.waitKey(0)
+
 # Reading Videos
 capture = cv.VideoCapture('Resources/Videos/dog.mp4')
 
